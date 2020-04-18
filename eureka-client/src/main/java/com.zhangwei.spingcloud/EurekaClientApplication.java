@@ -1,4 +1,4 @@
-package com.zhangwei.springcloud;
+package com.zhangwei.spingcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
