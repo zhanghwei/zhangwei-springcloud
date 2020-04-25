@@ -10,6 +10,8 @@
         <module>service-user</module>
         <module>service-order</module>
         <module>service-user-interface</module>
+        <module>server-config</module>
+        <module>client-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
