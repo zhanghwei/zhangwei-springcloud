@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          #git仓库 在公司里，配置存储仓库  单独的https://gitee.com/zhanggm1002/zhanggm-springcloud-demo-1708d.git
-          uri: https://gitee.com/zhanggm1002/springcloud-demo-0325.git
+          #git仓库 在公司里，配置存储仓库  单独的https://github.com/zhanghwei/zhangwei-springcloud.git
+          uri: https://github.com/zhanghwei/zhangwei-springcloud.git
             #检索目录
           search-paths:
             - configfiles
@@ -18,3 +18,7 @@ server:
   port: 8888
   servlet:
     context-path: /config/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
