@@ -11,15 +11,19 @@
 
     <artifactId>zuul-gateway</artifactId>
     <dependencies>
-        <!-- Eureka客户端依赖 -->
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <!-- Zuul依赖 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+        </dependency>
+        <!-- Ribbon依赖 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
     </dependencies>
 

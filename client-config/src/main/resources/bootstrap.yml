@@ -5,7 +5,7 @@ spring:
   cloud:
     config:
       #\u914D\u7F6E\u4E2D\u5FC3\u7684\u5730\u5740
-      uri: http://localhost:8888
+      uri: http://localhost:8888/config
       #\u6307\u5B9A\u62C9\u53BB\u7684dev\u73AF\u5883\uFF0C\u5B83\u4E0Espring.application.name\u5C5E\u6027\u624D\u80FD\u4ECEGit\u4ED3\u5E93\u627E\u5230\u914D\u7F6E\u6587\u4EF6
       profile: test
       #\u53EF\u4EE5\u6307\u5B9A\u62C9\u53BB\u914D\u7F6E\u7684Git\u5206\u652F
