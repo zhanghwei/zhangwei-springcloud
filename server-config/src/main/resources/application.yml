@@ -16,3 +16,5 @@ spring:
         label: spring-cloud-config
 server:
   port: 8888
+  servlet:
+    context-path: /config/
