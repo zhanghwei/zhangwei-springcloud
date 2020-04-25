@@ -13,6 +13,8 @@
         <module>service-user-interface</module>
         <module>zuul-gateway</module>
         <module>cloud-gateway</module>
+        <module>client-config</module>
+        <module>server-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
