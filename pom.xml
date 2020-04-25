@@ -10,6 +10,8 @@
         <module>service-user</module>
         <module>service-order</module>
         <module>service-user-interface</module>
+        <module>zuul-gateway</module>
+        <module>cloud-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
